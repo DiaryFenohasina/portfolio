@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.11/fullpage.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div class="row">
+        <div id="fullpage">
+            <div class="section s1">
+                <h1>WEB</h1>
+                <h2>DEVELOPMENT</h2>
+                <legend>RICHARTS Diary / Portfolio</legend>
+            </div>
+            <div class="section s2">
+                <div class="slide">
+                    <div class="skill">
+                        <div class="skill-comp">
+                            <h1>Compétences</h1>
+                        </div>
+                        <div class="skill-tag">
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Javascript</li>
+                                <li>PHP</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="about">
+                        <div class="about-img">
+                            <img src="./images/iphone-card-50-specialist-help-202108.jpg" alt="">
+                        </div>
+                        <div class="about-text">
+                            <h1>A propos</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ipsa doloremque? Quo velit
+                                ducimus perferendis nobis est voluptate odit expedita officiis, eos nulla fugit. Ullam
+                                culpa
+                                nisi dolor recusandae labore!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    tay
+                </div>
+            </div>
+            <div class="section s3">
+                TAY
+            </div>
+            <div class="section s4">
+                <div class="contact">
+                    <div class="contact-why">
+                        <h1>Why choose me?</h1>
+                    </div>
+                    <div class="contact-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium modi nesciunt tenetur
+                            fuga, cupiditate impedit dignissimos voluptas, non corporis quae autem pariatur nulla animi
+                            odio sint veniam at blanditiis eum.</p>
+                    </div>
+                    <div class="contact-cont">
+                        <div class="cont-title">
+                            <h2>Contact</h2>
+                        </div>
+                        <div class="cont-text">
+                            <p>+261 34 20 607 81</p>
+                            <p>richartdiaryfenohasina@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="style.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.11/fullpage.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.11/vendors/easings.min.js"></script>
+    <script>
+        new fullpage('#fullpage', {
+            autoScrolling: true,
+            scrollHorizontally: true,
+            navigation: true,
+            anchors: ['section1', 'section2', 'section3', 'section4'],
+            navigationTooltips: ['Home', 'About us', 'Inspiration', 'Contact'],
+            showActiveTooltip: true,
+            controlArrows: false,
+            slidesNavigation: true
+        });
+    </script>
+</body>
+
+</html>

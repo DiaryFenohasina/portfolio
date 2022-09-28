@@ -1,0 +1,65 @@
+.fp-overflow {
+    padding: 14%;
+    font-family: "Gill Sans", sans-serif;
+}
+.fp-prev{
+    width: 2em;
+}
+
+.fp-next{
+    width: 25em;
+}
+span{
+    background: white !important;
+}
+
+h1,
+h2 {
+    color: rgb(255, 255, 255);
+    
+}
+
+.s1 {
+    background: url('./images/wallpapersden.com_cool-4k-pattern_3840x2160.jpg');
+    background-size: cover;
+}
+
+
+.s1 legend {
+    color: rgba(255, 255, 0, 0.822);
+}
+
+.s2 {
+    background: linear-gradient(to left, #808080 0%, #ff99cc 100%);
+}
+
+
+.s2 .skill {
+    margin-top: -4em;
+    margin-bottom: 4em;
+}
+
+.s2 .about {
+    width: 31em;
+}
+
+.s2 .about .about-img img{
+    width: 9em;
+    border-radius: 5em;
+}
+
+.s3{
+    background: linear-gradient(to left, #808080 0%, #ff6600 100%);
+    background-size: cover;
+}
+
+.s4{
+    background: linear-gradient(to left, #808080 0%, #66ccff 100%);
+}
+
+.s4 .contact .contact-text{
+    width: 30em;
+}
+.s4 .contact .contact-why h1{
+    font-size: 5em;
+}
